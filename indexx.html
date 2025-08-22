@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex Styles | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<!-- ===== Checkout Modal ===== -->
+<div id="checkoutModal" class="checkout-modal">
+  <div class="checkout-content">
+    <span class="close-btn">&times;</span>
+    <h2>Checkout</h2>
+    <form>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+
+      <label for="payment">Payment Method</label>
+      <select id="payment">
+        <option value="visa">Visa / MasterCard</option>
+        <option value="sadapay">Sadapay</option>
+        <option value="nayapay">Nayapay</option>
+      </select>
+
+      <button type="submit" class="order-btn">Confirm Order</button>
+    </form>
+  </div>
+</div>
+
+<body>
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="logo">Alex Styles</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="fade-in">Hi, I’m <span>Alex Styles</span></h1>
+      <p class="fade-in-delay">Creative Video Editor crafting bold, modern visuals that connect.</p>
+      <a href="#portfolio" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p> Hi, I’m <strong>Alex Styles</strong> — a passionate <strong>video editor</strong> who transforms raw footage into cinematic stories. 
+    With a sharp eye for pacing, rhythm, and visuals that resonate, I create videos that not only look amazing but also keep viewers engaged from start to finish.
+    </p>
+  <p>
+    I specialize in editing for <em>YouTube creators</em>, <em>brands</em>, and <em>businesses</em> that need videos to grab attention, 
+    build trust, and leave a lasting impact. From <strong>montages and ads</strong> to <strong>social media reels</strong> and 
+    <strong>long-form content</strong>, I adapt my editing style to fit your story and audience.
+  </p>
+  <p>
+    I work with industry-standard tools like <strong>Adobe Premiere Pro</strong>, <strong>After Effects</strong>, and <strong>DaVinci Resolve</strong>, 
+    always delivering polished, professional results on time.
+  </p>
+  <p>
+    Whether it’s a fast-paced TikTok, a cinematic promo, or a clean YouTube vlog, I’m here to make your vision stand out. 🎬
+  </p>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="portfolio">
+    <h2>Portfolio</h2>
+    <div class="grid">
+      <div class="card fade-up">
+        <img src="https://picsum.photos/400/300?random=1" alt="Project 1">
+        <div class="overlay"><span>Project One</span></div>
+      </div>
+      <div class="card fade-up">
+        <img src="https://picsum.photos/400/300?random=2" alt="Project 2">
+        <div class="overlay"><span>Project Two</span></div>
+      </div>
+      <div class="card fade-up">
+        <img src="https://picsum.photos/400/300?random=3" alt="Project 3">
+        <div class="overlay"><span>Project Three</span></div>
+      </div>
+      <div class="card fade-up">
+        <img src="https://picsum.photos/400/300?random=4" alt="Project 4">
+        <div class="overlay"><span>Project Four</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="services">
+    <h2 class="section-title">Hire Me</h2>
+    <p class="section-subtitle">Affordable editing services tailored to your needs</p>
+    
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>Basic Video Edit</h3>
+        <p>Perfect for short clips, TikToks, and Instagram reels. Includes trimming, transitions, and background music.</p>
+        <span class="price">$5</span>
+      </div>
+
+      <div class="service-card">
+        <h3>📱 Standard Package</h3>
+        <p>YouTube or promotional video edits (up to 10 minutes). Includes text overlays, effects, and color correction.</p>
+        <span class="price">$10</span>
+      </div>
+
+      <div class="service-card">
+        <h3>Premium Package</h3>
+        <p>Cinematic ads or full-length edits (up to 30 minutes). Includes advanced transitions, motion graphics, and sound design.</p>
+        <span class="price">$15</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Alex Styles. All rights reserved.</p>
+  </footer>
+</body>
+</html>
